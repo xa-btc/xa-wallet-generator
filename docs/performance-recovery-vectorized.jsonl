@@ -1,0 +1,5 @@
+{"mode": "gpu-vectorized", "batch": 1024, "phrasesMs": 0.02, "pbkdfMs": 64.31, "deriveMs": 0.0, "addressFilterMs": 1.57, "perSecond": 15538}
+{"mode": "gpu-vectorized", "batch": 4096, "phrasesMs": 0.03, "pbkdfMs": 65.44, "deriveMs": 0.0, "addressFilterMs": 1.55, "perSecond": 61115}
+{"mode": "gpu-vectorized", "batch": 8192, "phrasesMs": 0.04, "pbkdfMs": 72.95, "deriveMs": 0.0, "addressFilterMs": 1.91, "perSecond": 109374}
+{"mode": "gpu-vectorized", "batch": 16384, "phrasesMs": 0.06, "pbkdfMs": 92.87, "deriveMs": 0.0, "addressFilterMs": 1.98, "perSecond": 172628}
+{"mode": "gpu-vectorized", "batch": 32768, "phrasesMs": 0.11, "pbkdfMs": 191.49, "deriveMs": 0.0, "addressFilterMs": 2.98, "perSecond": 168407}

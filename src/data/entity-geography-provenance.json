@@ -1,0 +1,8 @@
+{
+  "isoRecords": 250,
+  "majorCityRecords": 6364,
+  "retrieved": "2026-10-30",
+  "countries": "https://github.com/michaelwittig/node-i18n-iso-countries",
+  "cities": "https://download.geonames.org/export/dump/cities15000.zip",
+  "citySelection": "population >= 100000 or feature code PPLC; primary and ASCII names, plus curated aliases"
+}

@@ -1,0 +1,6 @@
+{"runtime":"v24.20.0","cpu":"AMD Ryzen 9 9950X 16-Core Processor            ","logicalCores":32,"nativeCryptoThreads":"Node default (4)","note":"Node benchmark of browser worker source; browser throughput can differ. Keys never logged or saved."}
+{"chain":"sol","baselinePerSecond":199,"workers":1,"attempts":6120,"perSecond":2034,"elapsedMs":3009,"matches":318,"speedup":10.22}
+{"chain":"sol","baselinePerSecond":199,"workers":4,"attempts":14960,"perSecond":4959,"elapsedMs":3017,"matches":758,"speedup":24.92}
+{"chain":"sol","baselinePerSecond":199,"workers":12,"attempts":15224,"perSecond":5051,"elapsedMs":3014,"matches":775,"speedup":25.38}
+{"chain":"eth","baselinePerSecond":119,"workers":12,"attempts":9360,"perSecond":3084,"elapsedMs":3035,"matches":1078,"speedup":25.92}
+{"chain":"btc","baselinePerSecond":123,"workers":12,"attempts":9308,"perSecond":3073,"elapsedMs":3029,"matches":446,"speedup":24.98}

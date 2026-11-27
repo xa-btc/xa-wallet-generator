@@ -1,0 +1,5 @@
+{"mode": "cpu-derive", "batch": 1024, "phrasesMs": 3.28, "pbkdfMs": 56.36, "deriveMs": 11.58, "addressFilterMs": 1.56, "perSecond": 14070}
+{"mode": "cpu-derive", "batch": 4096, "phrasesMs": 12.89, "pbkdfMs": 64.28, "deriveMs": 44.18, "addressFilterMs": 1.25, "perSecond": 33410}
+{"mode": "cpu-derive", "batch": 8192, "phrasesMs": 25.22, "pbkdfMs": 65.03, "deriveMs": 85.39, "addressFilterMs": 1.58, "perSecond": 46227}
+{"mode": "cpu-derive", "batch": 16384, "phrasesMs": 51.07, "pbkdfMs": 75.43, "deriveMs": 179.55, "addressFilterMs": 1.88, "perSecond": 53207}
+{"mode": "cpu-derive", "batch": 32768, "phrasesMs": 100.9, "pbkdfMs": 153.76, "deriveMs": 345.71, "addressFilterMs": 2.6, "perSecond": 54344}

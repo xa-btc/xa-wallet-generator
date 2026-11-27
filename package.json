@@ -1,0 +1,26 @@
+{
+  "name": "xa-wallet-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test test/*.test.js",
+    "benchmark": "node scripts/benchmark.mjs",
+    "test:gpu": "node scripts/test-gpu.mjs",
+    "benchmark:gpu": "node scripts/benchmark-gpu.mjs",
+    "test:gpu:bitcoin": "node scripts/test-bitcoin-gpu.mjs"
+  },
+  "dependencies": {
+    "@noble/curves": "^2.4.0",
+    "@noble/hashes": "^2.4.0",
+    "@scure/base": "^2.4.0",
+    "@scure/bip32": "^2.4.0",
+    "@scure/bip39": "^2.4.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  }
+}

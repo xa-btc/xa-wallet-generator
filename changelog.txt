@@ -1,0 +1,31 @@
+2026-11-19 - Network search character validation
+- Highlight unsupported typed search characters in red as the network or text changes.
+- Block submission with the normal popup before fitting or filtering can discard invalid characters.
+- Cover typed ends, direct/custom words and active custom overflow words; preserve native input editing.
+
+2026-11-19 - Ethereum Fast GPU mode
+- Added GPU Keccak-256 address generation using the shared independent-random-key secp256k1 engine.
+- Enabled Ethereum Fast on individual GPUs, all GPUs and hybrid CPU/GPU searches; phrase mode remains CPU-only.
+- Verify and export EIP-55 addresses with hex private keys; apply CPU casing filters to the exported checksum form.
+- Preserve Bitcoin and Solana modes and remove the outdated network restriction from the Fast selector label.
+Backup: src/backups/main - 2026-11-19_13-16-49.js
+Backup: src/backups/search - 2026-11-19_13-20-26.js
+Backup: src/backups/settings - 2026-11-19_13-16-49.js
+Backup: gpu/backups/bitcoin_fast - 2026-11-19_13-16-49.py
+Backup: gpu/backups/bridge - 2026-11-19_13-16-49.js
+Backup: gpu/backups/engine - 2026-11-19_13-16-49.py
+Backup: gpu/backups/THIRD_PARTY - 2026-11-19_13-16-49.md
+
+2026-11-19 - Bitcoin Fast mode
+- Added independent random-key GPU secp256k1, native SegWit address generation and filtering.
+- Enabled BTC Fast for CPU, individual GPU, all GPUs and hybrid searches.
+- Export compressed WIF without a recovery phrase; verify every retained GPU result independently.
+- Preserve Bitcoin recovery mode and clarify import guidance.
+
+Backup: backups/ - 2026-11-19_12-36-00.gitignore
+Backup: backups/README - 2026-11-19_12-36-00.md
+Backup: gpu/backups/bridge - 2026-11-19_12-36-00.js
+Backup: gpu/backups/engine - 2026-11-19_12-36-00.py
+Backup: src/backups/main - 2026-11-19_12-36-00.js
+Backup: src/backups/settings - 2026-11-19_12-36-00.js
+Backup: src/backups/wallet - 2026-11-19_12-36-00.js
